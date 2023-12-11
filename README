@@ -1,0 +1,6 @@
+# auto reload
+flask --app run.py --debug run
+# add all dependencies in txt file
+pip freeze > requirements.txt
+# run env
+sourcee env/bin/activate
